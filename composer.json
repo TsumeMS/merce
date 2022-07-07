@@ -1,0 +1,28 @@
+{
+    "name": "misan/api",
+    "description": "Klient API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Michał Stój",
+            "email": "michal.stoj@misan.net.pl"
+        }
+    ],
+    "require": {
+        "php": "7.4",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "API\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
